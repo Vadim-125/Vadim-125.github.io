@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin:0%;
+}
+
+body {
+    overflow-x: hidden ;
+}
+
+
+/*---- Шапка ----*/
+
+.menus {
+    background-color: #A605F2;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+.menus .logo {
+    display: flex;
+    margin: 28px;
+}
+
+.container {
+    margin: 12px;
+    display: flex;
+    align-self: stretch;
+}
+
+.item {
+    margin: 20px;
+}
+
+header .logo {
+    font-size:  21px;
+    font-weight: bold ;
+    font-family: 'Segoe UI';
+}
+
+.log {
+    color: white;
+}
+
+.sviaz {
+    color: white;
+    font-size: 17px;
+    border: 3px solid #C4C4C4;
+    border-radius: 36px;
+    padding: 7px;
+    font-family: 'Segoe UI';
+}
+
+header .paragraf {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+}
+
+.about {
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+}
+
+/*---- Шапка ----*/
+
+
+a {
+    text-decoration: none;
+    color: #C4C4C4; 
+}
+
+a:active {
+    color: #686b6b;
+    
+}
+
+
+/*---- Первый блок MAIN ----*/
+
+.shablon1 {
+    background-color: #8600A1;
+    height: 440px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main_container {
+    position: absolute;
+    left: 120px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 38%;
+}
+
+.zagolovok {
+    font-family: 'Segoe UI';
+    font-weight: bold ;
+    color: white;
+    font-size: 48px;
+}
+
+.main_container .parag {
+    color: #C4C4C4;
+    width: 22em;
+    font-weight: medium;
+    font-size: 21px;
+    line-height: 23px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+   
+}
+
+.button {
+    color: black;
+    background-color: #FCD980;
+    border-radius: 57px;
+    padding: 15px 18px 15px;  
+    font-size: 18px; 
+    font-family: 'Segoe UI';
+    font-weight: 400; 
+    font-style: normal;
+    width: 120px;
+    text-align: center;
+    margin-left: -17em;
+    line-height:23px;
+    margin-top: 10px;
+    
+}
+
+.button:active {
+    color: #686b6b;
+}
+
+.Afishka {
+    margin: 0% 60%;
+    position: absolute;
+    left: 10px;
+    top: 75px;
+}
+
+/*---- Первый блок MAIN ----*/
+
+
+
+/*---- Второй блок MAIN ----*/
+
+.shablon2 {
+    background-color: #ffffff;
+    height: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container_main2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.zagol {
+    font-family: 'Segoe UI';
+    font-weight: 500 ;
+}
+
+.abzac {
+    font-family: 'Segoe UI';
+    font-weight: 700 ;
+    color: #C4C4C4;
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+/*---- Второй блок MAIN ----*/
+
+
+
+/*---- Таблицы в блоке MAIN ----*/
+
+.shablon3 {
+    background-color: #ffffff;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.zagolov {
+    font-family: 'Segoe UI';
+    font-weight: 700 ;
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3%;
+}
+
+.block1 {
+    background-color: #F2F9F7;
+    margin-top: 10vh;
+    width: 28%;
+    height: 15em;
+    padding: 20px;
+    
+}
+
+.paragraf0 {
+    color: #838383f6;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+.zagolov0 {
+    font-family: 'Segoe UI';
+    font-weight: 700 ;
+    color: black;
+    font-size: 25px;
+    margin-left: 8px;
+    width: 18em;
+}
+
+.photo0 {
+    margin-left: 5px;
+}
+
+.photo01 {
+    margin-left: 5px;
+    border-radius: 40px;
+    width: 55px;
+}
+
+.text_block0 {
+    margin-top: 1px;
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+/*---- Таблицы в блоке MAIN ----*/
+
+
+
+/*---- Первая реклама в блоке MAIN ----*/
+
+.main_container3 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0% 270px;
+    height: 350px;
+    
+}
+
+.card_0 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 55%;
+    height: 60%;
+   
+}
+
+.zagolovok_0 {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    line-height: 1.5em;
+}
+
+.paragraf_1 {
+    font-size: 21px; 
+    font-weight: 600;
+    font-family: 'Segoe UI';
+}
+
+.paragraf_2 {
+    font-family: 'Segoe UI';
+    font-size: 21px;
+    color: #686b6b;
+    width: 25em;
+}
+
+.photo_Afisha {
+    height: 17em;
+}
+
+
+/*---- Первая реклама в блоке MAIN ----*/
+
+
+
+/*---- Вторая реклама в блоке MAIN ----*/
+
+
+.background {
+    background-color: #F2F9F7;
+}
+
+.main_container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 5% 270px;
+    height: 350px;
+}
+
+.card_1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 55%;
+    height: 60%;
+   
+}
+
+.paragraf_ {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: #686b6b;
+    width: 30em;
+    padding: 10px;
+}
+
+
+/*---- Вторая реклама в блоке MAIN ----*/
+
+
+
+/*---- Третья реклама в блоке MAIN ----*/
+
+.main_containerX {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5% 270px;
+    height: 350px;
+}
+
+.paragraf_X {
+    font-size: 21px; 
+    font-weight: 600;
+    width: 28em;
+    font-family: 'Segoe UI';
+    padding: 1%;
+}
+
+/*---- Третья реклама в блоке MAIN ----*/
+
+
+/*---- Команда в блоке MAIN ----*/
+
+
+.background0 {
+    background-color: #F2F9F7;
+    height: 450px;
+}
+
+.command_container {
+    margin: 7% 7% 0% ;
+    height: 450px;
+}
+
+.command {
+    font-size:  50px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.name_blocks {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.name_block0 {
+    background-color: white;
+    width: 210px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+.par1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    margin: 7px;
+}
+
+.par2 {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    
+}
+
+.png {
+    border-radius: 90px;
+}
+
+
+/*---- Команда в блоке MAIN ----*/
+
+
+
+/*---- Главный Footer(Подвал) ----*/
+
+footer {
+    background-color: #8600A1;
+    height: 315px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item_cards0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 109%;
+    justify-content: space-evenly;
+}
+
+.item_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 120%;
+    justify-content: space-evenly;
+}
+
+.logo0 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+.p_0 {
+    font-family: 'Segoe UI';
+    color: #a2a4a4;
+    width: 22em;
+    font-size: 17px;
+}
+
+.h1_0 {
+    font-weight: 500;
+}
+
+.email {
+    font-size: 15px;
+    color: #551a8b;
+    cursor: pointer;
+}
+.team{
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+.connection {
+    background-color: #FCD980;
+    width: 300px;
+    height: 55px;
+    line-height: 45px;
+    font-family: 'Segoe UI';
+    padding: 40px ;
+    
+}
+
+.social_networks{
+    height: 20%;
+}
+
+/*---- Главный Footer(Подвал) ----*/
+
+
+
+/*---- Конец - under Footer(под Подвалом) ----*/
+
+.menu_footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.adres_project {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    color: black;
+}
+
+.a {
+    color: black;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/*---- Конец - under Footer(под Подвалом) ----*/
