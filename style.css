@@ -509,7 +509,7 @@ footer {
 /*---- Конец - under Footer(под Подвалом) ----*/
 
 .menu_footer {
-    height: 50px;
+    height: 65px;
     display: flex;
     justify-content: space-around;
     align-items: center;
